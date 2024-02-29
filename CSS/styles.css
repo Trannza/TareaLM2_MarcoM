@@ -1,0 +1,118 @@
+@font-face {
+    font-family:"breakingbad";
+    src: url("../Breaking\ Bad.ttf") format("truetype"),
+    /* Añade más formatos de fuente si es necesario */
+}
+
+body {
+    color: white;
+    margin: 1;
+    padding: 1;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.confondo{
+    background-image: url("../img/breaking\ bad/fondo.jpg");
+    background-size: cover;
+}
+
+.sinfondo{
+    background-color:#0c3e11;
+}
+
+.grande {
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+
+.pequeña {
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#breakingtipo{
+    font-family: "breakingbad";
+}
+
+#arial{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#poster {
+
+    width: 700px;
+    height: 300px;
+    border-color: brown;
+    border-width: 10px;
+    border-radius: 22px;
+    border-style: outset;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+
+}
+
+.container {
+    
+    background-color: #000;
+    margin: 0 auto;
+    display: inline-block;
+    color: #000;
+    border-width: 4px;
+    border-color: black;
+}
+.margen td {
+    border: 0.25px solid;
+    width: 75px;
+    height: 75px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+   
+}
+.imghans{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    margin-left: -1px;
+}
+
+#verde{
+    background-color: rgba(0, 128, 0, 0.567)
+}
+#verdeclaro{
+    background-color:green
+    }
+    
+#caki{
+    background-color: yellowgreen  ;
+}
+#amarillo td{
+    background-color: yellow;
+}
+#oliva{
+   background-color: olive;
+}
+#blanco{
+   background-color: white;
+}
+#beige{
+    background-color:palegreen;
+    }
+#morado{
+    background-color: palevioletred;
+}
+#lila{
+    background-color: lightslategray;
+}
+#gris{
+    background-color: rgb(21, 55, 4);
+}
